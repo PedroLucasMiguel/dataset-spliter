@@ -25,7 +25,6 @@ args_config = (
     ("-dto", "--dataset_output_path", None, None, None, None, str, False),
     ("-l", "--layout", "?", "all", ["train_val", "train_val_test"], None, str, True),
     ("-ss", "--split_size", "+", None, None, None, float, True),
-    ("-inp", "--in_place", None, None, None, "store_true", bool, False),
     ("-ms", "--manual_seed", None, None, None, None, int, False),
     ("-umt", "--use_multi_threading", None, None, None, "store_true", bool, False),
 )
