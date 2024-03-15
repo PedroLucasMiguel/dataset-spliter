@@ -14,11 +14,11 @@ A utily to help split datasets
 # Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val_test
 
 -ss or --split_size -> Defines the size of each split
-# Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val_test -ss 0.8,0.2
+# Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val_test -ss 0.7 0.15 0.15
 
 -ms or --manual_seed -> Defines a manual seed for the split
-# Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val_test -ss 0.8,0.2 -ms 1212
+# Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val -ss 0.8 0.2 -ms 1212
 
 -umt or --use_multi_threading -> Defines if the split process will or not be multithreaded
-# Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val_test -ss 0.8,0.2 -umt
+# Example: python dts.py -dtp ../dataset -dto splitted_dataset -l train_val -ss 0.8 0.2 -umt
 ```
